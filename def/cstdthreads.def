@@ -1,0 +1,28 @@
+LIBRARY cstdthreads
+EXPORTS
+    thrd_create
+    thrd_equal
+    thrd_current
+    thrd_sleep
+    thrd_yield
+    thrd_exit
+    thrd_detach
+    thrd_join
+    call_once
+    mtx_init
+    mtx_lock
+    mtx_trylock
+    mtx_timedlock
+    mtx_unlock
+    mtx_destroy
+    cnd_init
+    cnd_signal
+    cnd_broadcast
+    cnd_wait
+    cnd_timedwait
+    cnd_destroy
+    tss_create
+    tss_set
+    tss_get
+    tss_delete
+    

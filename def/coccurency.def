@@ -1,0 +1,15 @@
+LIBRARY cocurrency
+EXPORTS
+    futureInit
+    futureDestroy
+    futureGet
+    futureValid
+    futureWait
+    futureWaitUntil
+    getFuture
+    promiseBind
+    promiseSetValue
+    packagedTaskBind
+    packagedTaskCall
+    packagedTaskReset
+    async
